@@ -68,3 +68,10 @@ h2{
     background-color: #fff0d4;
     height: 100vh;
 }
+
+@media screen and (max-width: 600px) {
+    .title h2 {
+      font-size: 3rem;
+      color: #ffffff;
+    }
+  }
