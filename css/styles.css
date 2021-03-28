@@ -1,6 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: left;
+    height: 100%;
+    margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
@@ -11,31 +13,58 @@ h2{
     line-height: 1.5;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 0 5%;
 }
+.section-title{
+    padding: 2% 5%;
+}
+
+/* Header */
+#header{
+    color: rgb(7, 0, 48);
+    padding-bottom: 100px;
+    text-align: left;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/ThomasBigger2.JPG"); /* The image used */
+    background-color: #fff0d0;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .title{
+    margin: 12% 0;
+  }
+  .title h1{
+      font-size: 4rem;
+      color: #ffffff;
+  }
   
 /* Navigation Bar */
 .navbar{
-    padding: 0;
-    margin-bottom: 80px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
 }
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
+    color: rgb(7, 0, 48);
     font-size: 2.5rem;
     font-weight: 500;
 }
 .nav-item{
     margin: 0 18px;
+    color: rgb(7, 0, 48);
+}
+.nav-item:hover{
+    cursor: pointer;
+    text-decoration: underline;   
 }
 .nav-link{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
-/* Header */
-#header{
-    background-color: #ffcfb4;
-    color: rgb(27, 25, 25);
-    padding-bottom: 100px;
-    text-align: left;
-  }
+#skills{
+    background-color: #fff0d4;
+    height: 100vh;
+}
