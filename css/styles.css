@@ -3,6 +3,7 @@ body{
     text-align: left;
     height: 100%;
     margin: 0;
+    color:white;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
@@ -17,6 +18,18 @@ h2{
 }
 .section-title{
     padding: 2% 5%;
+}
+.up{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    font-size: 2rem;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+.up:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
 }
 
 /* Header */
@@ -65,7 +78,7 @@ h2{
 }
 
 #skills{
-    background-color: #fff0d4;
+    background-color: #e09f10;
     height: 100vh;
 }
 
